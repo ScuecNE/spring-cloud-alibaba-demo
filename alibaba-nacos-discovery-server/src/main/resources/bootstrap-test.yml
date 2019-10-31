@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: alibaba-nacos-discovery-server
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 47.95.14.192:8848
+        namespace: 56bfa194-74e9-4528-a486-845664397109
+      config:
+        server-addr: 47.95.14.192:8848
+        file-extension: properties
+        namespace: 56bfa194-74e9-4528-a486-845664397109
+server:
+  port: 10070
+

@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: alibaba-nacos-discovery-client-common
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 47.95.14.192:8848
+        namespace: 56bfa194-74e9-4528-a486-845664397109
+server:
+  port: 10080
+
