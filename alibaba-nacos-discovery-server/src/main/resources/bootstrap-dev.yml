@@ -10,6 +10,8 @@ spring:
         server-addr: 47.95.14.192:8848
         file-extension: properties
         namespace: bdddfce5-5eb2-4166-941b-1cbbd4dd8181
+        shared-dataids: actuator.properties,log.properties
+        refreshable-dataids: actuator.properties,log.properties
 server:
   port: 10070
 
